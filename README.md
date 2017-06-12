@@ -1,4 +1,4 @@
-# PortalTech Reply - REST API Test
+# REST API Test
 
 ## Summary
 * Project uses [cucumber-java8](https://cucumber.io/docs/reference/jvm#step-definitions)
