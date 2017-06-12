@@ -1,8 +1,8 @@
-package portaltech.test.acceptance.stepdefs;
+package example.test.acceptance.stepdefs;
 
 import cucumber.api.DataTable;
 import cucumber.api.java8.En;
-import portaltech.test.domain.Country;
+import example.test.domain.Country;
 
 import java.util.Arrays;
 import java.util.List;

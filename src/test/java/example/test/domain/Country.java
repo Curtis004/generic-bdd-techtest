@@ -1,4 +1,4 @@
-package portaltech.test.domain;
+package example.test.domain;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package portaltech.test.acceptance;
+package example.test.acceptance;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
             "portaltech.test.acceptance"
         },
         features = {
-                "src/test/resources/portaltech/test/acceptance/API - All Countries.feature"
+                "src/test/resources/example/test/acceptance/API - All Countries.feature"
         }
 )
 public class APIAcceptanceTest {}

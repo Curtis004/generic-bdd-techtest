@@ -1,4 +1,4 @@
-package portaltech.test.acceptance.stepdefs;
+package example.test.acceptance.stepdefs;
 
 import cucumber.api.java.Before;
 import cucumber.api.java8.En;
