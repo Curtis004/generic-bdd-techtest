@@ -1,0 +1,155 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "https://restcountries.eu/rest/v1/all",
+    "items": {
+        "id": "/items",
+        "properties": {
+            "alpha2Code": {
+                "id": "/items/properties/alpha2Code",
+                "type": "string"
+            },
+            "alpha3Code": {
+                "id": "/items/properties/alpha3Code",
+                "type": "string"
+            },
+            "altSpellings": {
+                "id": "/items/properties/altSpellings",
+                "items": {
+                    "id": "/items/properties/altSpellings/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "area": {
+                "id": "/items/properties/area",
+                "type": ["number", "null"]
+            },
+            "borders": {
+                "id": "/items/properties/borders",
+                "items": {
+                    "id": "/items/properties/borders/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "callingCodes": {
+                "id": "/items/properties/callingCodes",
+                "items": {
+                    "id": "/items/properties/callingCodes/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "capital": {
+                "id": "/items/properties/capital",
+                "type": "string"
+            },
+            "currencies": {
+                "id": "/items/properties/currencies",
+                "items": {
+                    "id": "/items/properties/currencies/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "demonym": {
+                "id": "/items/properties/demonym",
+                "type": "string"
+            },
+            "gini": {
+
+                "id": "/items/properties/gini",
+                "type": ["number", "null"]
+            },
+            "languages": {
+                "id": "/items/properties/languages",
+                "items": {
+                    "id": "/items/properties/languages/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "latlng": {
+                "id": "/items/properties/latlng",
+                "items": {
+                    "id": "/items/properties/latlng/items",
+                    "type": "number"
+                },
+                "type": "array"
+            },
+            "name": {
+                "id": "/items/properties/name",
+                "type": "string"
+            },
+            "nativeName": {
+                "id": "/items/properties/nativeName",
+                "type": "string"
+            },
+            "numericCode": {
+                "id": "/items/properties/numericCode",
+                "type": ["string", "null"]
+            },
+            "population": {
+                "id": "/items/properties/population",
+                "type": "integer"
+            },
+            "region": {
+                "id": "/items/properties/region",
+                "type": "string"
+            },
+            "relevance": {
+                "id": "/items/properties/relevance",
+                "type": ["string", "null"]
+            },
+            "subregion": {
+                "id": "/items/properties/subregion",
+                "type": "string"
+            },
+            "timezones": {
+                "id": "/items/properties/timezones",
+                "items": {
+                    "id": "/items/properties/timezones/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "topLevelDomain": {
+                "id": "/items/properties/topLevelDomain",
+                "items": {
+                    "id": "/items/properties/topLevelDomain/items",
+                    "type": "string"
+                },
+                "type": "array"
+            },
+            "translations": {
+                "id": "/items/properties/translations",
+                "properties": {
+                    "de": {
+                        "id": "/items/properties/translations/properties/de",
+                        "type": ["string", "null"]
+                    },
+                    "es": {
+                        "id": "/items/properties/translations/properties/es",
+                        "type": ["string", "null"]
+                    },
+                    "fr": {
+                        "id": "/items/properties/translations/properties/fr",
+                        "type": ["string", "null"]
+                    },
+                    "it": {
+                        "id": "/items/properties/translations/properties/it",
+                        "type": ["string", "null"]
+                    },
+                    "ja": {
+                        "id": "/items/properties/translations/properties/ja",
+                        "type": ["string", "null"]
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "type": "object"
+    },
+    "type": "array"
+}
